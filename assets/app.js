@@ -1,5 +1,5 @@
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('assets/serviceWorker.js');
+    navigator.serviceWorker.register('serviceWorker.js');
 }
 
 const scanner = new Instascan.Scanner({
