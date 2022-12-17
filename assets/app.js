@@ -11,4 +11,4 @@ const scanner = new Instascan.Scanner({
     }
 });
 
-Instascan.Camera.getCameras().then(cameras => scanner.start(cameras[1] || cameras[0]));
+Instascan.Camera.getCameras().then(cameras => scanner.start(cameras[1]));
